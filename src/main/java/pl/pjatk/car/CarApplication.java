@@ -13,7 +13,7 @@ public class CarApplication {
 
 	public static void print() {
 		String value = null;
-		Car honda = new Car("honda", "civic",  "red",  2005, 4);
+		Car honda = new Car("honda", "civic",  "red", 2005, 4);
 		System.out.println(honda);
 	}
 }

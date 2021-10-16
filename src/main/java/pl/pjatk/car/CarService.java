@@ -10,7 +10,7 @@ import java.util.List;
 public class CarService {
     public List<Car> findAll(){
         List<Car> CarList = new ArrayList<>();
-        Car car = new Car("honda", "civic",  "red",  2005);
+        Car car = new Car("honda", "civic",  "red",  2005, 4);
         CarList.add(car);
         return CarList;
     }

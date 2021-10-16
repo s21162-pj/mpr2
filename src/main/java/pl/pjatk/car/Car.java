@@ -16,14 +16,13 @@ public class Car {
                 ", wheels=" + wheels +
                 '}';
     }
-    private String mark;
     private String model;
     private String color;
     private int year;
     private int wheels;
 
 
-    public Car(String mark, String model, String color, int year){
+    public Car(String mark, String model, String color, int year, int wheels){
         this.mark = "honda";
         this.model = "civic";
         this.color = "red";
